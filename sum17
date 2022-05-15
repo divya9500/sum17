@@ -1,0 +1,20 @@
+# Convert a float value to an integer (float to double etc.) (Hint use wrapper classes ,do not typecast them!).
+
+package Assesement2;
+
+public class WrapperClass {
+    public static void main(String args[]){
+        //using wrapper class
+        Float n=24.6f;
+        Short num=68;
+
+        Character aa='z';
+        Integer ascii= Integer.valueOf(aa);
+        Integer a=n.intValue();
+        System.out.println(a);
+        //using typecast
+        float n1=36.54f;
+        int a1= (int) n1;
+        System.out.println(a1);
+    }
+}
